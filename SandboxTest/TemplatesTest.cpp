@@ -1,7 +1,6 @@
 #include "stdafx.h"
 #include "CppUnitTest.h"
 #include "../SandBox/MyClass.h"
-#include "../SandBox/Bar.h"
 #include "../SandBox/Foo.h"
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
