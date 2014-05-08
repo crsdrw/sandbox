@@ -3,8 +3,8 @@
 class DataStats {
   float sum_;
   int   size_;
-  DataStats(int size) : size_(size) {}
 public:
-  template<typename T> addValue(T value) { sum_ += value; }
-  float getAverage() { sum_ / size_; }
+  DataStats() : size_(0), sum_(0.0) {}
+  template<typename T> void addValue(T value) { sum_ += value; ++size_; }
+  float getAverage() { return size_ > 0 ? sum_ / size_ : 0.0f; }
 };
