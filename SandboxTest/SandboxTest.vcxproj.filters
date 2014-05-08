@@ -32,5 +32,8 @@
     <ClCompile Include="TemplatesTest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="AssemblyTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

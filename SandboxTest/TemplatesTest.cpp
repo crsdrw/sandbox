@@ -5,8 +5,14 @@
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
+namespace sbx {
+  extern template void MyClass::MyTemplateFunction<int>();
+}
+
 namespace SandboxTest {
-	TEST_CLASS(TemplatesTest) {
+
+  
+  TEST_CLASS(TemplatesTest) {
 	public:
 		
 		TEST_METHOD(TestInternalTemplate) {
@@ -24,6 +30,7 @@ namespace SandboxTest {
 
     TEST_METHOD(TestMemberFunctionTemplate) {
       sbx::MyClass mc;
+
       mc.MyTemplateFunction<int>();
     }
 	};

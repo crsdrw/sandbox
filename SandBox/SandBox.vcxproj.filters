@@ -7,6 +7,12 @@
     <Filter Include="Templates">
       <UniqueIdentifier>{a2d2210b-f591-404a-8f08-bc8155afd8b4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="AssemblyTest">
+      <UniqueIdentifier>{7584d42f-6091-40b1-ab6f-a4182dcedf22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStat">
+      <UniqueIdentifier>{9a1b3d77-e98e-4c6d-9ce9-1be499cf7d0c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ILeft.h">
@@ -29,6 +35,18 @@
     <ClInclude Include="Foo.h">
       <Filter>Templates</Filter>
     </ClInclude>
+    <ClInclude Include="MyFunction.h">
+      <Filter>AssemblyTest</Filter>
+    </ClInclude>
+    <ClInclude Include="FloatData.h">
+      <Filter>DataStat</Filter>
+    </ClInclude>
+    <ClInclude Include="IntData.h">
+      <Filter>DataStat</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStats.h">
+      <Filter>DataStat</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Impl.cpp">
@@ -43,6 +61,9 @@
     </ClCompile>
     <ClCompile Include="Foo.cpp">
       <Filter>Templates</Filter>
+    </ClCompile>
+    <ClCompile Include="MyFunction.cpp">
+      <Filter>AssemblyTest</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
