@@ -3,6 +3,7 @@
 
 namespace MyLogger {
   void WriteMessage(const std::string& msg) {
-    Microsoft::VisualStudio::CppUnitTestFramework::Logger::WriteMessage(msg.c_str());
+    using Microsoft::VisualStudio::CppUnitTestFramework::Logger;
+    Logger::WriteMessage(msg.c_str());
   }
 }
