@@ -47,9 +47,7 @@
     <ClInclude Include="DataStats.h">
       <Filter>DataStat</Filter>
     </ClInclude>
-    <ClInclude Include="StatsFInder.h">
-      <Filter>DataStat</Filter>
-    </ClInclude>
+    <ClInclude Include="StatsFinder.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Impl.cpp">
